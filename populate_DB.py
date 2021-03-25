@@ -11,8 +11,8 @@ def getData(timeFrame, limit):
     NY = 'America/New_York'
     api = tradeapi.REST(
         base_url= 'wss://data.alpaca.markets/stream',
-        key_id='PK8IOBAM1R0SRJWSRWLN',
-        secret_key='IKauGAZE66TMRMll2s1jcbP2anIPx6xOehuBwRiu'
+        key_id='YOUR KEY ID HERE',
+        secret_key='YOUR SECRET ID HERE'
     )
     
     
