@@ -31,8 +31,8 @@ MAX_ORDERS = 5
 # connect to alpaca
 api = tradeapi.REST(
     base_url= 'https://paper-api.alpaca.markets',
-    key_id='PK8IOBAM1R0SRJWSRWLN',
-    secret_key='IKauGAZE66TMRMll2s1jcbP2anIPx6xOehuBwRiu'
+    key_id='YOUR KEY ID HERE',
+    secret_key='YOUR SECRET ID HERE'
 )
 
 # =============================================================================
@@ -50,8 +50,8 @@ def populate_db(timeFrame, limit):
     NY = 'America/New_York'
     api = tradeapi.REST(
         base_url= 'wss://data.alpaca.markets/stream',
-        key_id='PK8IOBAM1R0SRJWSRWLN',
-        secret_key='IKauGAZE66TMRMll2s1jcbP2anIPx6xOehuBwRiu'
+        key_id='YOUR KEY ID HERE',
+        secret_key='YOUR SECRET ID HERE'
     )
     
     
